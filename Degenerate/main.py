@@ -11,7 +11,7 @@ class Widget(Ui_MainWindow):
 
     def generate(self):
         self.label_password.setText('da')
-        print(1)
+        print(2)
 
 app = QApplication([])
 ex = Widget()
